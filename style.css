@@ -86,6 +86,7 @@ footer {
 .textos {
   font-size: 18px;
   text-align: center;
+  justify-content: space-around;
   color: #E4EEF1;
 }
 
