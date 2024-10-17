@@ -90,11 +90,15 @@ footer {
   color: #E4EEF1;
 }
 
-.redesSociais{
+.redesSociais {
    display: flex;
    align-items: center;
    justify-content: end;
 
+     .simbolo{
+        width: 80%,
+        cursor: pointer;
+  }
 }
 
 @media (max-width: 768px) {
