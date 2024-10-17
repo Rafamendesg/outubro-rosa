@@ -11,7 +11,7 @@
 
 header {
   background-color: #FF69B4;
-  height: 15vh;
+  height: 18vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,12 +21,12 @@ header {
 header .sectionLogo {
   display: flex;
   align-items: center;
-  font-size: 25px;
+  font-size: 23px;
   justify-content: space-evenly;
 }
 
 nav {
-  width: 40%;
+  width: 50%;
 }
 nav ul {
   display: flex;
@@ -34,11 +34,11 @@ nav ul {
 }
 nav a {
   color: #E4EEF1;
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .sectionConscientizacao {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -53,7 +53,7 @@ nav a {
 }
 
 .sectionCaminhada {
-  height: 35vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -66,22 +66,26 @@ nav a {
   width: 55%;
 }
 .sectionCaminhada img {
-  width: 23vw;
+  width: 25vw;
 }
 
 .sectionCards {
   display: flex;
-  height: 26, 63rem;
-  padding: 20px;
+  padding: 10px;
   background-color: #FFD9EC;
   justify-content: space-around;
 }
 
 footer {
-  height: 19vh;
+  height: 18vh;
   background-color: #FF69B4;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+footer .redesSociais {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -90,66 +94,59 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   color: #E4EEF1;
 }
 
 @media (max-width: 768px) {
   header {
-    height: 20vh;
+    height: 25vh;
     flex-direction: column;
   }
-  .sectionLogo h1 {
-    font-size: 24px;
+  header .sectionLogo h1 {
+    font-size: 22px;
   }
-  .sectionLogo img {
-    width: 12vh;
+  header .sectionLogo h1 img {
+    width: 10vh;
   }
-  nav {
-    width: 90%;
+  header nav {
+    width: 95%;
   }
-  nav a {
-    font-size: 24px;
+  header nav a {
+    font-size: 20px;
   }
   .sectionConscientizacao {
-    height: 70vh;
+    height: 80vh;
     flex-direction: column-reverse;
   }
-  p {
-    width: 50%;
-    font-size: 25px;
+  .sectionConscientizacao p {
+    width: 90%;
+    font-size: 22px;
     text-align: center;
   }
+  .sectionConscientizacao img {
+    width: 33%;
+  }
   .sectionCaminhada {
-    height: 70vh;
+    height: 80vh;
     flex-direction: column;
   }
   .sectionCaminhada img {
-    width: 55vw;
+    width: 50vw;
   }
   .sectionCaminhada p {
-    width: 80%;
-    font-size: 28px;
+    width: 90%;
+    font-size: 22px;
     text-align: center;
   }
   .sectionCards {
     flex-wrap: wrap;
-    width: 100%;
   }
   .sectionCards img {
     width: 33vw;
   }
   footer {
-    width: 100%;
-    height: 28vh;
-  }
-  .redesSociais {
-    flex-direction: row;
-    width: 12vw;
-  }
-  .textos {
-    font-size: 12px;
-    text-align: center;
+    height: 23vh;
   }
 }/*# sourceMappingURL=style.css.map */
