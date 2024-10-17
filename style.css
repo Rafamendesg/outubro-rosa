@@ -88,6 +88,13 @@ footer {
   font-size: 18px;
   text-align: center;
   color: #E4EEF1;
+    
+    .simbolo{
+        width: 80%,
+        cursor: pointer;
+        justify-content: space-around;
+    }
+   
 }
 
 .redesSociais {
@@ -95,10 +102,6 @@ footer {
    align-items: center;
    justify-content: end;
 
-     .simbolo{
-        width: 80%,
-        cursor: pointer;
-  }
 }
 
 @media (max-width: 768px) {
