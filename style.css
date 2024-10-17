@@ -78,7 +78,6 @@ nav a {
 }
 
 footer {
-  height: 19vh;
   background-color: #FF69B4;
   display: flex;
   align-items: center;
@@ -88,11 +87,28 @@ footer {
 .textos {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   justify-content: center;
   align-items: center;
+=======
+>>>>>>> a7fd91fd5a2eb8027eac5d8fb7bb36652a6cf4e8
   font-size: 18px;
   text-align: center;
   color: #E4EEF1;
+    
+    .simbolo{
+        width: 80%,
+        cursor: pointer;
+        justify-content: space-around;
+    }
+   
+}
+
+.redesSociais {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+
 }
 
 @media (max-width: 768px) {
