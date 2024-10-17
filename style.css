@@ -90,6 +90,13 @@ footer {
   color: #E4EEF1;
 }
 
+.redesSociais{
+   display: flex;
+   align-items: center;
+   justify-content: end;
+
+}
+
 @media (max-width: 768px) {
   header {
     height: 20vh;
