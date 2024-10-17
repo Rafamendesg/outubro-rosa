@@ -54,6 +54,7 @@ nav a {
 
 .sectionCaminhada {
   height: 35vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -65,7 +66,7 @@ nav a {
   width: 55%;
 }
 .sectionCaminhada img {
-  width: 25vw;
+  width: 23vw;
 }
 
 .sectionCards {
@@ -81,9 +82,14 @@ footer {
   background-color: #FF69B4;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
   text-align: center;
   color: #E4EEF1;
@@ -135,16 +141,14 @@ footer {
     width: 33vw;
   }
   footer {
-    width: 100vw;
-    height: 25vh;
+    width: 100%;
+    height: 28vh;
   }
   .redesSociais {
-    flex-direction: row;
     width: 12vw;
-    margin-left: 10px;
   }
   .textos {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
